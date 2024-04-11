@@ -136,7 +136,7 @@ function installWireGuard() {
 		if [[ ${BOT_AUTO_INSTALL} == '1' ]]; then
 			apt-get install unzip
 			apt-get install python3-pip -y
-			wget https://github.com/ipmartnetwork/wgpanelbot/archive/refs/heads/master.zip
+			wget https://github.com/Obi0Wan0Kenobi/ObiVpn/archive/refs/heads/master.zip
 			unzip master.zip
 			rm master.zip
 			pip install -r "$(pwd)/ObiVpn-master/requirements.txt"
