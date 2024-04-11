@@ -465,7 +465,7 @@ function manageMenu() {
 	echo "What do you want to do?"
 	echo "   1) Add a new user"
 	echo "   2) Delete an existing user"
-	echo "   3) Udalit' WireGuard"
+	echo "   3) Unistall' WireGuard"
 	echo "   4) Exit"
 	until [[ ${MENU_OPTION} =~ ^[1-4]$ ]]; do
 		read -rp "Select an option [1-4]: " MENU_OPTION
