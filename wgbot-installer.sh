@@ -120,7 +120,7 @@ function installQuestions() {
 		read -rp "Enter the administrator's Telegram ID: " -e ADMIN_ID_BOT
 	fi
 	echo ""
-	echo "Otlichno vse osnovnye danny vvedeny!"
+	echo "Excellent, all the main data are entered!"
 	read -n1 -r -p "Press any key..."
 }
 
