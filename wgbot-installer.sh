@@ -463,8 +463,8 @@ function manageMenu() {
 	echo "It looks like WireGuard is already installed."
 	echo ""
 	echo "What do you want to do?"
-	echo "   1) Dobavit' novogo pol'zovatelya"
-	echo "   2) Udalit' sushchestvuyushchego pol'zovatelya"
+	echo "   1) Add a new user"
+	echo "   2) Delete an existing user"
 	echo "   3) Udalit' WireGuard"
 	echo "   4) Exit"
 	until [[ ${MENU_OPTION} =~ ^[1-4]$ ]]; do
