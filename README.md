@@ -6,4 +6,18 @@
 ```shell
 sudo wget https://raw.githubusercontent.com/iPmartNetwork/wgpanelbot/master/wgbot-installer.sh && chmod 774 wgbot-installer.sh && ./wgbot-installer.sh
 ```
+
+### Run service
+
+```shell
+./wgbot-installer.sh
+```
+
+
+
+
+
+
+
+
 جهت آموزش کلی به زوردی ویدیو ریکورد خواهیم کرد
